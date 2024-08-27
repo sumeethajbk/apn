@@ -1,0 +1,80 @@
+.hero-banner-main {padding:36px 0 36px 0;}
+.hero-banner-main p {margin-bottom: 33px;}
+.activity-wrap {max-width: 254px; margin: 0 auto;}
+body .selectBox-dropdown .selectBox-label {text-transform: uppercase; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px; font-size: 0.75rem; padding: 16px 30px 16px 14px;}
+body .selectBox-options li, body .selectBox-options li a {text-transform: uppercase; font-size: 0.75rem; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px;}
+body .selectBox-options li.selectBox-selected a {padding: 7px 8px 7px;}
+body .selectBox-dropdown .selectBox-arrow, body .selectBox-dropdown:focus .selectBox-arrow {right: 17px !important;}
+
+.sec-blocks {float: left; width: 100%;}
+.sec-thumb {width: 50%;}
+.sec-thumb img {width: 100%; height: 100%; font-family: "object-fit: cover"; -o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%;}
+.sec-txt {padding:40px 130px 40px; width: 50%; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;}
+.sec-txt h2 {margin-bottom: 16px; letter-spacing: 4px;}
+.sec-txt p {margin-bottom: 32px;}
+.sec-txt .button {font-size: 0.75rem; padding: 12px 12px 13px 13px;}
+.sec-blocks:nth-child(2n+1) .sec-inner-wrap {flex-direction: row-reverse;}
+
+.fluid-wrap {float: left; width: 100%;}
+
+.more-activities-main {float: left; width: 100%; background: #fff; padding: 80px 0 64px; text-align: center;}
+.more-activities {margin-bottom: 44px;}
+.more-activites-grid {width:49.18%; margin:0 0 1.64% 1.64%; position: relative;}
+.more-activites-grid:nth-child(2n+1) {margin-left: 0;}
+.more-activites-grid .thumb-main {display: flex; min-height: 434px; align-items: stretch;}
+.more-activites-grid .thumb-main img {width: 100%; height: 100%; font-family: "object-fit: cover";
+-o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out;}
+.more-activites-grid .thumb-main img:hover {opacity: 0.8;}
+.more-activites-grid .thumb-main a {display: block; width: 100%;}
+.more-activites-grid .thumb-main:after {content: ""; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000); height: 315px; width: 100%; display: block; bottom: 0; position: absolute;}
+.more-activites-grid .text {position: absolute; bottom: 0; padding:0 32px 31px 32px; text-align: left;}
+.more-activites-grid .text .h6 a {color: #e87722;}
+.more-activites-grid .text .h6 a:before {display: none;}
+.more-activites-grid .text .h6 a:hover {color: #fff;}
+.more-activites-grid h5 a, .more-activites-grid h5{font-size: 1.25rem; line-height: 1.4; font-weight: 500; text-transform: none; letter-spacing: normal; margin-bottom: 16px; color: #fff;}
+.more-activites-grid h5 a:hover {color: #e87722;}
+.more-activites-grid h5 a {color: #fff;}
+
+.more-activities-main small {margin-bottom:17px; display: block; font-size: 0.75rem; line-height: normal; letter-spacing:1.5px; color: #222; text-transform: uppercase; font-weight: bold; font-family: 'Montserrat', sans-serif;}
+.more-activities-main h2 {margin-bottom: 49px;}
+
+.txt-link {color: #fff;}
+.txt-link:hover {color: #e87722;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1260px){	
+	.sec-txt {padding:40px 30px 40px;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.sec-thumb {width: 100%;}
+	.sec-txt {padding: 30px 40px 40px; width: 100%;}
+		
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main {padding:63px 0 36px 0;}
+	.hero-banner-main h1 {line-height:1.1; letter-spacing:2px; margin-bottom: 24px; padding: 0 30px;}
+	.hero-banner-main p {margin-bottom: 25px;}
+	
+	.sec-thumb {width: 100%;}
+	.sec-txt {width: 100%; padding:32px 20px 42px;}
+	.sec-txt h2 {font-size: 2rem; letter-spacing: 3.2px; margin-bottom: 18px;}
+	.sec-txt p {margin-bottom:32px;}
+	
+	.activities-module {padding: 64px 0 46px;}
+	.activities-module small {margin-bottom: 4px;}
+	
+	.more-activities {margin-bottom: 7px;}
+	.more-activities-main small {display: none;}
+	.more-activities-main {padding: 64px 0 66px;}
+	.more-activities-main h2 {padding: 0 20px; font-size: 2rem; letter-spacing: 3.5px; margin-bottom: 34px;}
+	
+	.more-activites-grid {width: 100%; margin: 0 0 33px 0;}
+	
+	
+}
+

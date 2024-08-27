@@ -1,0 +1,97 @@
+main {padding-top: 88px;}
+.main_header {background: rgb(232, 116, 30);}
+.team-profile-banner {padding: 64px 0 0 0;}
+.banner-profile-wrap {justify-content: space-between; flex-direction: row-reverse;}
+.team-profile-thumb {max-width: 544px; width: 100%;}
+.team-profile-cont {background: #fff; width: calc(100% - 544px); padding:65px 49px 52px;}
+.team-profile-cont h1 {margin-bottom: 17px; font-size: 2.5rem; letter-spacing: 5px; line-height: 1.02; color: #282220; font-weight: normal; }
+.team-profile-cont hr.small {margin:27px 0 28px;}
+.team-design {font-family: 'Montserrat', sans-serif; font-weight: bold; letter-spacing: 2px;  color: #757575; text-transform: uppercase;}
+.team-info h6 {letter-spacing: 2px; margin-bottom: 12px;}
+.team-info ul {margin:0 0 0 11px;}
+.team-info ul li {font-size: 0.75rem; font-weight: 600; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px; color: #757575; text-transform: uppercase; margin-bottom: 10px;}
+.team-info ul li:before {width: 3px; height: 3px; background-color: #e8741e; left: -11px; top: 7px;}
+
+
+.team-profile-content {float: left; width: 100%; padding:63px 0 69px;}
+.team-profile-content ul, .team-profile-content ol {margin-top: -24px;}
+.team-profile-wrap {justify-content: space-between;}
+.team-profile-lt {width: 65.74%;}
+.team-profile-lt .video-thumbnail {margin: 48px 0 42px 0;}
+.team-profile-right {width:288px; position: relative; top: -3px;}
+.team-profile-right h6 {letter-spacing: 2px; margin-bottom: -4px;}
+
+.accordion-main {clear: both;}
+.accordion-item {position: relative; border-bottom: solid 1px #757575;}
+.accordion-item.active {border-bottom: solid 1px #e87722;}
+.accordion-item .content {display: none; color: #757575; padding: 20px 0 12px 0; border-top: solid 1px #e87722;}
+.accordion-item .content p {margin-bottom: 12px; line-height: 1.25; padding-right: 20px;}
+.accordion-item .content ul li:before {top: 11px;}
+.accordion-item .content .video-thumbnail {margin: 8px 0 24px 0;}
+.accordion-item .content ul, .accordion-item .content ol {margin-bottom: 10px; padding-right: 20px}
+.accordion-item .heading {display: block; padding:20px 30px 8px 0; line-height: 1.5; font-weight: 500; color: #222222; font-family: 'Montserrat', sans-serif; letter-spacing: normal;}
+.accordion-item .heading:after {content: "\f107"; font-family: "Font Awesome 6 Pro"; line-height: normal; display: flex; align-items: center; font-size:1.09rem; font-weight: normal; right: 6px; top:23px; margin: auto; position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: #e87722;}
+.accordion-item.active .heading:after {content: "\f106"; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out;}
+
+.team-profile-right ul {margin: 0; padding: 0!important;}
+.team-profile-right ul li:before { display:none;}
+.team-profile-right ul li { margin-bottom:8px;}
+.team-profile-right ul li a { display:table; width:100%; position:relative;}
+.team-profile-right ul li a:before {display: none;}
+.team-profile-right ul li a .nav-thumb { display:table-cell; vertical-align:top; width:64px;}
+.team-profile-right ul li a .nav-thumb img {object-fit: cover; width:48px; height:48px; border-radius:50%;}
+.team-profile-right ul li a .nav-cnt { display:table-cell; vertical-align:middle}
+.team-profile-right ul li a span.nav-cnt{font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: normal;}
+
+.single-testimonial {padding: 31px 32px;  border-radius: 8px;  background-color: #fff; margin: 56px 0 50px;}
+.single-testimonial p {line-height: 1.33; font-size: 1.5rem; font-weight: 300; margin-bottom: 24px;}
+.quote {display: block; margin: 0 0 10px 0;}
+.quote img {width:21px; height: 16px;}
+
+.single-author-thumb {width: 73px;}
+.single-author-thumb img {width:56px; height: 56px; object-fit: cover;}
+.single-author-cont h6 {text-transform: capitalize; font-weight: 500;  margin-bottom: -2px; line-height: normal;}
+.single-author-cont {width: calc(100% - 73px)}
+.single-author-cont span {font-family: 'Montserrat', sans-serif; font-weight: bold; letter-spacing: 1.5px; opacity: 0.5; font-size: 0.75rem;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1260px){
+	.team-profile-thumb {max-width: 444px; width: 100%;}
+	.team-profile-cont {width: calc(100% - 444px);}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.team-profile-banner {padding:50px 0 0 0;}
+	.team-profile-cont h1 {font-size: 2.25rem;}
+	.team-profile-cont {width: calc(100% - 340px); padding: 25px 29px 22px;}
+	.team-profile-thumb {max-width: 340px;}
+	.team-profile-right {width: 100%;}
+	
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	main {padding-top: 68px;}
+	.team-profile-content {padding-bottom: 0;}
+	.team-profile-lt {width: 100%; margin: 0 0 43px 0;}
+	.team-profile-right {margin: 0 auto; position: relative; padding: 60px 0;}
+	.team-profile-right:before {content: ""; background: rgba(117, 117, 117, 0.1); position: absolute; left: -1000px; top:0; width: 1000%; height: calc(100% + 3px);}
+	.team-profile-right h6 {margin: 0 0 -4px 0;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.team-profile-banner {padding: 0;}
+	.team-profile-banner .container {padding: 0;}
+	.team-profile-thumb {width: 100%; max-width: 100%;}
+	.team-profile-cont {width: 100%;}
+	.banner-profile-wrap {align-items: flex-start;}
+	
+	.team-profile-cont {padding: 29px 20px 28px;}
+	.team-profile-cont hr.small {margin: 27px 0 30px;}
+	
+	.team-profile-content {padding: 39px 0 0;}
+	
+	.video-thumbnail {margin: 48px 0 42px 0;}
+	.single-testimonial {margin: 48px 0 42px;}
+	.single-testimonial p {margin-bottom: 25px;}
+	
+}
+

@@ -1,0 +1,45 @@
+.hero-banner-main {padding: 33px 0 36px 0;}
+.intro-features-grid {margin: 0 0 5.7% 2.7%;}
+
+
+
+.intro-btm .btn .button {border-radius: 0; min-width: 352px; margin: 0 16px;}
+.intro-features {margin: 0 0 14px;}
+
+.cta-main {background: transparent;}
+.cta-inner-wrap {flex-direction: row-reverse;}
+.cta-txt h2 {padding-right: 70px;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1100px){
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.intro-btm .btn .button {min-width: 322px;}
+	
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main small {margin-bottom: 23px;}
+	.hero-banner-main {padding:64px 0 36px 0;}
+	.hero-banner-main h1 {line-height:1.1; letter-spacing:2px; margin-bottom: 24px;}
+	.hero-banner-main p {margin-bottom: 25px;}
+	
+	
+	
+	.intro {padding: 54px 0 42px;}
+	.intro-lt small {margin-bottom: 8px;}
+	.intro-features-grid .thumb {margin: 0 0 16px 0;}
+	.intro-features-grid h6 {margin-bottom: 9px;}
+	.intro-features {margin: 0 0 14px;}
+	.intro-features-grid {margin-left: 0;}
+	
+	.intro-btm .btn .button {margin: 0 0 24px 0; min-width: inherit; width: 100%; border-radius: 4px;}
+	.cta-txt {padding: 28px 30px 40px 20px;}
+	
+}
+

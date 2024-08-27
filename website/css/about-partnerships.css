@@ -1,0 +1,68 @@
+.hero-banner-main {padding: 35px 0 36px 0;}
+
+.partners-group-main {float: left; width: 100%; padding: 80px 0 20px;}
+.partners-group {text-align: center; margin-bottom: 48px;}
+.partners-group small {margin-bottom: 17px; display: block; font-size: 0.75rem; line-height: normal; letter-spacing:1.5px; color: #222; text-transform: uppercase; font-weight: bold; font-family: 'Montserrat', sans-serif;}
+.partners-group h2 {margin-bottom: 12px;}
+
+.partners-slider-main {margin: 0 0 31px 0;}
+.partners-slider {background: #fff; padding: 29px 20px; margin: 0 0 30px 0;}
+.partners-slide {max-width: 210px; margin:0 44px;}
+.partners-slider .slick-list {overflow: visible;}
+.partners-slider .slick-track {display: flex!important; align-items: center; justify-content: center;}
+
+.subsection-group {float: left; width: 100%;}
+.subsection-group .container-md {max-width: 1143px;}
+.subhead-sec {display: flex; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+.subhead-single {width: 33.3%; padding:21px 40px 0 49px; position: relative; margin-bottom: 60px;}
+.subhead-single:before {content: ""; background-color: #757575; opacity: 0.25; width:1px; height: 100%; position: absolute; left: 0; display: block; top:0;}
+.subhead-single h5 {margin-bottom: 16px; line-height: 1.4;}
+.subhead-single ul {margin: 0 0 24px 16px;}
+.subhead-single ul > li:before {left: -15px; top:8px;}
+.subhead-single ul > li {line-height: normal; margin-bottom: 3px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+	.subhead-single:nth-child(3n+1) {padding-left: 0; width: 29%;}
+.subhead-single:nth-child(3n+1):before {display: none;}
+.subhead-single:nth-child(3n) {padding-right: 0; width: 30%;}
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.subhead-single, .subhead-single:nth-child(3n+1), .subhead-single:nth-child(3n) {width: 50%; padding: 0 40px 0 39px; margin-top: 37px; margin-bottom: 37px;}
+	.subhead-single:nth-child(2n+1):before, .subhead-single:first-child:before {display: none;}
+	.subhead-single:nth-child(2n+1):after {content: ""; background-color: #757575; opacity: 0.25; width:1000%; height: 1px; position: absolute; left: -100%; display: block; top:-37px;}
+	.subhead-single:first-child:after {display: none;}
+	.subsection-group {padding: 0 0 30px;}
+	
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	
+	
+}
+@media only screen and (max-width:960px) and (min-width: 768px) {
+	
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main {padding: 23px 0 36px 0;}
+	.hero-banner-main small {margin-bottom: 25px;}
+	.hero-banner-main h1 {font-size: 2.25rem; margin-bottom: 25px; letter-spacing: 3.6px;}
+	
+	.partners-group-main {padding: 64px 0 24px;}
+	.partners-group h2 {font-size: 2rem; letter-spacing: 3.2px; margin-bottom: 24px;}
+	.partners-group small {margin-bottom: 25px;}
+	.partners-slider-main {margin: 0 0 16px 0;}
+	.partners-slider {display: flex; flex-wrap: wrap; justify-content: center; padding:24px 20px 26px;}
+	.partners-slide {max-width: 118px; margin: 0 0 0 54px;}
+	.partners-slide:nth-child(2n+1) {margin-left: 0;}
+	
+	.subsection-group {padding:0 0 6px;}
+	.subhead-single, .subhead-single:nth-child(3n+1), .subhead-single:nth-child(3n)  {width: 100%; padding:31px 0 12px 0; margin: 0;}
+	.subhead-single:first-child {padding-top: 0;}
+	.subhead-single::before {width: 100%; height: 1px;}
+	.subhead-single:first-child::before {display: none;}
+	
+	
+}
+

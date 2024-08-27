@@ -1,0 +1,55 @@
+.main_header {background: rgba(232, 116, 30, 0.9);}
+.hero-banner-main {min-height: 608px; padding: 95px 0 36px 0; align-items: flex-start; max-width: 100%;}
+.hero-banner-main h1 {color: #e8741e; letter-spacing: 7.27px; margin-bottom: 11px;}
+.hero-banner-text small {color: #757575; margin-bottom: 15px;}
+.hero-banner-main p {color: #282220; line-height: 1.45;}
+.more-module {float: left; width: 100%; padding:40px 0 64px; text-align: center; background: rgba(117,117,117,0.1); position: relative; z-index: 1;}
+.more-module-inner {margin: 0 0 44px 0;}
+.more-module-list {width:32.23684210526316%; margin:0 0 1.64% 1.64%; position: relative;}
+.more-module-list:nth-child(3n+1) {margin-left: 0;}
+.more-module-list .thumb-main {display: flex; min-height: 434px; align-items: stretch;}
+.more-module-list .thumb-main img {width: 100%; height: 100%; font-family: "object-fit: cover";
+-o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out; border-radius: 8px;}
+.more-module-list .thumb-main img:hover {opacity: 0.8;}
+.more-module-list .thumb-main a {display: block; width: 100%;}
+.more-module-list .thumb-main:after {content: ""; border-bottom-left-radius:8px; border-bottom-right-radius:8px; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000); height: 366px; width: 100%; display: block; bottom: 0; position: absolute;}
+.more-module-list .text {position: absolute; bottom: 0; padding:0 32px 31px 32px; text-align: left;}
+.more-module-list .text .h6 a {color: #e87722;}
+.more-module-list .text .h6 a:before {display: none;}
+.more-module-list .text .h6 a:hover {color: #fff;}
+.more-module-list h5 {font-size: 1.25rem; line-height: 1.4; font-weight: 500; text-transform: none; letter-spacing: normal; margin-bottom: 17px;}
+.more-module-list h5, .more-module-list h5 a {color: #fff;}
+.more-module-list h5 a:hover {color: #e87722;}
+.more-module-wrap {margin-top: -281px;}
+
+.txt-link {color: #fff;}
+.txt-link:hover {color: #e87722;}
+
+.subscribe-main {display: none;}
+.footer_top {background: rgba(117,117,117,0.1);}
+
+.no_subpages .hero-banner-main {min-height: inherit;}
+footer.no_subpages .footer_top {background: transparent;}
+
+/*-- media css starts here --*/
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.more-module-list .text {padding: 0 22px 31px 22px;}
+	
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main {padding: 47px 0 36px 0;}
+	.hero-banner-text small {margin-bottom: 18px;}
+	.hero-banner-main h1 {font-size: 2rem; letter-spacing: 3.64px; line-height: 1.2; margin-bottom: 19px;}
+	
+	.more-module-list {width: 100%; margin: 0 0 25px 0;}
+	.more-module-list .text {padding: 0 19px 15px 19px;}
+	.more-module-wrap {margin-top: -314px;}
+	.more-module-inner {margin: 0 0 23px 0;}
+	
+	footer {padding: 0;}
+	
+}

@@ -1,0 +1,63 @@
+main {padding-top: 88px;}
+.main_header {background: rgba(232, 116, 30, 0.9);}
+
+.contact-us {float: left; width: 100%; padding:110px 0 119px;}
+.contact-form-main {justify-content: space-between;}
+.contact-us h1 {font-size: 3.5rem; letter-spacing: 7px; margin-bottom: 15px;}
+.contact-form-left {width:36%; margin-right: 20px;}
+.contact-form-left p {font-size: 1.125rem; line-height: 1.44;}
+.contact-form-right {width: 49.18%;}
+
+hr.small {margin: 27px 0 62px;}
+.admissions-block {margin:-12px 0 0 0; float: left; width: 100%;}
+.admissions-block .btn span {display: block; color: #757575; font-family: 'Montserrat', sans-serif; font-size: 0.875rem; letter-spacing: 1.75px; font-weight: bold; margin-top: 23px; text-transform: uppercase;}
+.admissions-block .btn span a {color: #757575;}
+.admissions-block .btn span a:before {display: none;}
+.admissions-block .btn span a:hover {color: #fff; background-color: #e87722; border: 2px solid #e87722;}
+.admissions-block p {margin-bottom: 24px;}
+
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields input, 
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields select, 
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields textarea {border:2px solid transparent;}
+
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields input:focus, 
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields select:focus, 
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields textarea:focus {
+  background: #fff !important;
+  border: 2px solid #e8741e !important;
+}
+
+.frm_style_formidable-style.with_frm_style .frm-show-form .frm_form_fields label {font-size: 1rem;  color: #282220; font-family: 'Montserrat', sans-serif;  font-weight: 500;}
+.common_form .frm_forms .frm_form_fields .frm_form_field.vertical_radio {margin-bottom: 15px;}
+
+.subscribe-main {display: none;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1260px) {
+	.contact-us h1 {font-size: 2.5rem;}
+	.frm_first {margin-right: 20px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.contact-us {padding: 40px 0 80px;}
+	.common_form {margin-bottom: 80px;}
+	
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	.contact-form-left {width: 100%;}
+	.contact-form-right {width: 100%;}
+	hr.small {display: none;}
+	
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.contact-us {padding:32px 0 16px;}
+	.contact-form-left {text-align: center; margin-right: 0;}
+	.contact-us h1 {letter-spacing: 5px; margin-bottom: 22px;}
+	.contact-form-left p {padding: 0 10px;  margin-bottom: 32px;}
+	
+	.admissions-block {text-align: center; margin: 0;}
+	.admissions-block h2 {font-size: 2rem; margin-bottom: 18px;  letter-spacing: 3.2px;}
+.admissions-block p {font-size: 1.125rem; line-height: 1.44;}
+	.common_form {margin-bottom: 64px;}
+	.admissions-block .btn span a {color: #e87722; padding: 13px 23px 13px 24px;}
+	.admissions-block .btn span {font-size: 0;}
+	}
