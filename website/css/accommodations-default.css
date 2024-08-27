@@ -1,0 +1,106 @@
+.hero-banner-main {padding:35px 0 36px 0;}
+.hero-banner-main .button {position: relative; top:1px;}
+
+.intro {padding:98px 0 96px; background: #fff;}
+.intro-lt small {margin-bottom: 8px;}
+.intro-features-grid {margin: 0 0 6% 2.7%;}
+
+.intro-btm .btn .button {min-width: 352px; margin: 0 16px;}
+.intro-features {margin: 0 0 12px;}
+
+.more-accommodations-main {float: left; width: 100%; background: #fff; padding: 80px 0 64px; text-align: center;}
+.more-accommodations {margin-bottom: 44px;}
+.more-accommodations-grid {width:23.75%; margin:0 0 1.64% 1.64%; position: relative;}
+.more-accommodations-grid:nth-child(4n+1) {margin-left: 0;}
+.more-accommodations-grid .thumb-main {display: flex; min-height: 434px; align-items: stretch;}
+.more-accommodations-grid .thumb-main img {border-radius: 8px; width: 100%; height: 100%; font-family: "object-fit: cover";
+-o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out;}
+.more-accommodations-grid .thumb-main img:hover {opacity: 0.8;}
+.more-accommodations-grid .thumb-main a {display: block; width: 100%;}
+.more-accommodations-grid .thumb-main:after {content: ""; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000); height: 315px; width: 100%; display: block; bottom: 0; position: absolute;}
+.more-accommodations-grid .text {position: absolute; bottom: 0; padding:0 22px 31px 22px; text-align: left;}
+.more-accommodations-grid span a {font-weight: bold; color: #e87722;}
+.more-accommodations-grid span a:hover {color: #fff;}
+.more-accommodations-grid span a:before {display: none;}
+.more-accommodations-grid h5 {font-size: 1rem; line-height: 1.4; font-weight: 500; text-transform: none; letter-spacing: normal; margin-bottom: 16px; color: #fff;}
+.more-accommodations-grid h5 a {color: #fff;}
+.more-accommodations-grid h5 a:hover {color: #e87722;}
+
+.more-accommodations-main small {margin-bottom:17px; display: block; font-size: 0.75rem; line-height: normal; letter-spacing:1.5px; color: #222; text-transform: uppercase; font-weight: bold; font-family: 'Montserrat', sans-serif;}
+.more-accommodations-main h2 {margin-bottom: 48px;}
+
+.txt-link {color: #fff;}
+.txt-link:hover {color: #e87722;}
+
+.subsection-group {float: left; width: 100%; padding: 96px 0;}
+.subhead-sec {display: flex; flex-wrap: wrap; justify-content: center; overflow: hidden;}
+.subhead-single {width: 38%; padding:21px 20px 0 57px; position: relative; margin-bottom: 20px;}
+.subhead-single:before {content: ""; background-color: #757575; opacity: 0.25; width:1px; height: 100%; position: absolute; left: 0; display: block; top:0;}
+.subhead-single h5 {margin-bottom: 12px; font-weight: 600;}
+.subhead-single ul {margin: 0 0 24px 16px;}
+.subhead-single ul > li:before {left: -15px; width: 4px; height: 4px;}
+
+.default-slider-main {margin-top: 0; margin-bottom:0;}
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+	.h6 {margin-bottom: 17px;}
+	
+.subhead-single:nth-child(3n+1) {padding-left: 0; width: 26.8%;}
+.subhead-single:nth-child(3n+1):before {display: none;}
+.subhead-single:nth-child(3n) {padding-right: 0; width: 30%;}
+}
+
+
+@media only screen and (max-width: 1260px) {
+.virtual-tour-txt {padding:40px 30px 40px;}
+	}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.intro {padding: 68px 0;}
+	.intro-btm .btn .button {min-width: 322px;}
+	
+	.subhead-single, .subhead-single:nth-child(3n+1), .subhead-single:nth-child(3n) {width: 50%; padding: 29px 40px 0 39px; margin-bottom: 73px;}
+	.subhead-single:nth-child(2n+1):before, .subhead-single:first-child:before {display: none;}
+	.subhead-single:nth-child(2n+1):after {content: ""; background-color: #757575; opacity: 0.25; width:1000%; height: 1px; position: absolute; left: -100%; display: block; top:-37px;}
+	.subhead-single:first-child:after {display: none;}
+	.subsection-group {padding: 96px 0 30px;}
+	
+	.virtual-tour-thumb {width: 100%;}
+	.virtual-tour-txt {padding: 40px 40px 40px; width: 100%;}
+	
+	.more-accommodations-grid, .more-accommodations-grid:nth-child(3n+1) {width: 48.6%; margin: 0 0 20px 20px;}
+	.more-accommodations-grid:nth-child(2n+1) {margin-left: 0;}
+	
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	
+	.hero-banner-main h1 {letter-spacing: 2px;}
+	.hero-banner-main {padding: 62px 0 36px 0;}
+	
+	.intro {padding: 54px 0 42px;}
+	.intro-btm .btn .button {margin: 0 0 24px 0; min-width: inherit; width: 100%; border-radius: 4px;}
+	.intro-features {margin: 0 0 17px;}
+	.intro-features-grid {margin: 0 0 31px 0;}
+	
+	.virtual-tour-thumb {width: 100%;}
+	.virtual-tour-txt {width: 100%; padding:28px 30px 37px 20px;}
+	.virtual-tour-txt h2 {font-size: 2rem; letter-spacing: 3.2px; margin-bottom: 14px;}
+	.virtual-tour-txt p {margin-bottom: 19px;}
+	
+	.subsection-group {padding: 44px 0 28px;}
+	.subhead-single, .subhead-single:nth-child(3n+1), .subhead-single:nth-child(3n)  {width: 100%; padding:31px 0 12px 0; margin: 0;}
+	.subhead-single:first-child {padding-top: 0;}
+	.subhead-single::before {width: 100%; height: 1px;}
+	
+	.more-accommodations-main {padding:48px 0 56px;}
+	.more-accommodations-grid {width: 100%; margin:0 0 32px 0;}
+	.more-accommodations {margin-bottom: 8px}
+	.more-accommodations-main h2 {font-size: 1.875rem; margin-bottom: 32px; font-weight: 300; line-height: 1.33; letter-spacing: 2.05px;}
+	
+	
+	.more-accommodations-grid .h6 {margin-bottom: 12px;}
+}

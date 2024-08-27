@@ -1,0 +1,96 @@
+.main_header {background: transparent;}
+.main_header.fixed-header {background: rgba(232, 116, 30, 0.5);}
+.main_header.fixed-header .normal-logo {visibility: hidden; opacity: 0;}
+.normal-logo {visibility: visible; opacity: 1;}
+.fixed-logo {visibility: hidden; opacity: 0;}
+
+.hero-banner-main {min-height: 711px; max-width: 1000px; padding: 55px 0 30px;}
+.hero-banner-main h1 {margin-bottom: 24px; font-size: 3.5rem; letter-spacing: 6.36px; line-height: 1.14;}
+.hero-banner-main p {line-height: 1.33; margin-bottom: 32px;}
+.hero-banner-main .button {max-width: 205px; padding: 12px 20px 12px 21px; margin: 0 16px; line-height: 1.43}
+.hero-banner-main .button:first-child {padding: 12px 29px 12px 30px;}
+.hero-banner-main .btn {font-size: 0; margin-top: 112px;}
+.default-banner-section {margin-bottom: -1px;}
+
+.sec-blocks-main {float: left; width: 100%;}
+.sec-txt h2 {margin-bottom: 10px;}
+.sec-txt p {margin-bottom: 40px;}
+.sec-txt .button {font-size: 0.875rem; padding: 15px 18px 15px 19px; letter-spacing: 1.75px;}
+
+.apn-center-module {background: transparent;}
+
+
+
+
+
+/* Accordion */
+.accordion-main {clear: both; margin-bottom: 24px;}
+.accordion-item {position: relative; border-bottom: solid 1px #757575;}
+.accordion-item.active {border-bottom: solid 1px #e87722;}
+.accordion-item .content {display: none; color: #757575; padding: 0;}
+.accordion-item .content p {margin-bottom: 12px; line-height: 1.25; padding-right: 20px;}
+.accordion-item .content ul li:before {top: 11px;}
+.accordion-item .content .video-thumbnail {margin: 8px 0 24px 0;}
+.accordion-item .content ul, .accordion-item .content ol {margin-bottom: 10px; padding-right: 20px}
+.accordion-item .heading {display: block; padding:24px 30px 8px 0; line-height: 1.5; font-weight: 500; color: #222222; font-family: 'Montserrat', sans-serif; letter-spacing: normal;}
+.accordion-item .heading:after {content: "\f063"; font-family: "Font Awesome 6 Pro"; line-height: normal; display: flex; align-items: center; font-size: 0.85rem; font-weight: normal; right: 8px; bottom:12px; margin: auto; position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: #e87722;}
+.accordion-item.active .heading:after {content: "\f00d"; font-size: 1rem; bottom: 13px; right: 8px;}
+.accordion-item span.title {display: block;}
+
+.home-faq-main {float: left; width: 100%;}
+.home-faq-thumb {width: 50%;}
+.home-faq-thumb img {width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover;
+	object-position: 50% 50%; -o-object-position: 50% 50%;}
+.home-faq-txt {padding:60px 115px 60px 111px; width: 50%; flex-grow: 1; display: flex; flex-direction: column; justify-content: center; background: #fff; margin-bottom: 3px;}
+.home-faq-txt h2 {margin-bottom: -2px; letter-spacing: 4px;}
+.home-faq-inner-wrap {flex-direction: row-reverse;}
+
+
+.grid-blocks:first-child {padding: 0 36px 0 6px;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1260px) {
+	.home-faq-txt {padding: 40px 30px 40px;}
+}
+
+@media only screen and (max-width: 1160px) {
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.home-faq-thumb {width: 100%;}
+	.home-faq-txt {padding: 30px 40px 40px; width: 100%;}
+	.accordion-main {margin-bottom: 40px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main h1 {font-size: 2.5rem; line-height: 1.1; letter-spacing: 2px; margin-bottom: 41px;}
+	.hero-banner-main .button {max-width: 100%; width: 100%; padding: 12px 10px 12px 11px; margin: 0 0 20px 0;}
+	.hero-banner-main {padding: 179px 0 48px;}
+	.hero-banner-main .btn {margin-top: 50px;}
+	
+	.sec-txt {padding:33px 45px 51px 20px;}
+	.sec-txt h2 {letter-spacing: 2px; margin-bottom: 23px;}
+	.sec-blocks:nth-child(2) .sec-txt { padding: 30px 45px 45px 20px;}
+	.sec-txt p {margin-bottom: 24px;}
+	.sec-blocks:nth-child(2) .sec-txt h2 {font-size: 1.75rem;}
+	
+	
+	.home-faq-thumb {width: 100%;}
+	.home-faq-txt {width: 100%; padding:47px 20px 48px;}
+	.home-faq-txt h2 {font-size: 2rem; margin-bottom: 2px;}
+	.accordion-main {margin-bottom: 40px;}
+	.accordion-item .heading {padding: 20px 30px 9px 0;}
+	.accordion-item .heading::after {top: 49px; bottom: inherit;}
+	.accordion-item.active .heading::after {bottom: 10px; top:inherit;}
+	.accordion-item .content p {margin-bottom: 23px;}
+	.accordion-item .content ul, .accordion-item .content ol {margin-bottom: 22px;}
+	
+	.grid-blocks-main {padding: 35px 0 66px 0;}
+	.grid-blocks-main h2 {font-size: 2rem; letter-spacing: 2px; margin-bottom: 55px;}
+	.grid-blocks-main .hide-in-desktop {padding-right: 20px;}
+	
+	.apn-center-module {padding: 64px 0 47px;}
+	
+	
+}

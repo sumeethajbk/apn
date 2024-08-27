@@ -1,0 +1,49 @@
+.hero-banner-main {max-width: 100%; padding: 34px 0 36px 0}
+
+.faq-section {float: left; width: 100%; padding:95px 0 17px;}
+.faq-single {margin:0 0 79px 0;}
+.faq-single h2 {margin-bottom: 20px;}
+.faq-single > p:first-of-type {font-size: 1.125rem; line-height: 1.44; margin-bottom: 16px;}
+
+/* Accordion */
+.accordion-main {clear: both;}
+.accordion-item {position: relative; border-bottom: solid 1px #757575;}
+.accordion-item.active {border-bottom: solid 1px #e87722;}
+.accordion-item .content {display: none; color: #757575; padding: 6px 0 0 0;}
+.accordion-item .content p {margin-bottom: 12px; line-height: 1.25; padding-right: 20px;}
+.accordion-item .content ul li:before {top: 10px;}
+.accordion-item .content .video-thumbnail {margin: 8px 0 24px 0;}
+.accordion-item .content ul, .accordion-item .content ol {margin-bottom: 10px; padding-right: 20px}
+.accordion-item .heading {display: block; padding:25px 30px 7px 0; line-height: 1.5; font-weight: 500; color: #222222; font-family: 'Montserrat', sans-serif; letter-spacing: normal;}
+.accordion-item .heading:after {content: "\f107"; font-family: "Font Awesome 6 Pro"; line-height: normal; display: flex; align-items: center; font-size: 1.4rem; font-weight: 300; right: 5px; bottom: 9px; margin: auto; position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: #e87722;}
+.accordion-item.active .heading:after {content: "\f00d"; font-size: 1.2rem; bottom: 12px; right: 8px;}
+.accordion-item span.title {display: block;}
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1100px){
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main h1 {font-size: 2.25rem; letter-spacing: 3.6px; margin-bottom: 25px;}
+	.hero-banner-main {padding:23px 0 36px 0;}
+	.hero-banner-main small {margin-bottom: 25px;}
+	.hero-banner-main p {margin-bottom: 25px;}
+	
+	
+	.faq-section {padding: 68px 0 0; margin-bottom: -4px;}
+	.faq-single > p:first-of-type {margin-bottom: 8px;}
+	.accordion-item .content p {margin-bottom: 17px; padding-right: 40px;}
+	.faq-single {margin: 0 0 68px 0;}
+	.faq-single h2 {font-size: 2rem; letter-spacing: 4px; margin-bottom: 21px;}
+	.accordion-item .content ul, .accordion-item .content ol {padding-right: 40px;}
+	
+}
+
+@media only screen and (max-width:480px) 
+{
+}

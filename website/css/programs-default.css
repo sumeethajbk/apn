@@ -1,0 +1,34 @@
+.hero-banner-main {padding:33px 0 36px 0;}
+.hero-banner-main .button {position: relative; top:1px;}
+
+.intro {padding: 96px 0; background: #fff;}
+.intro-lt small {margin-bottom: 8px;}
+.intro-features-grid {margin: 0 0 6% 2.7%;}
+
+.intro-btm .btn .button {min-width: 352px; margin: 0 16px;}
+.intro-features {margin: 0 0 12px;}
+
+.general-default-article-section {padding:77px 0 64px;}
+.general-default-article-section .video-thumbnail {margin-top: 76px; margin-bottom:  82px;}
+.def-thumb-boxs {margin-bottom: 47px;}
+
+/*-- media css starts here --*/
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.intro {padding: 68px 0;}
+	.intro-btm .btn .button {min-width: 322px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	.general-default-article-section {padding:63px 0 48px 0;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.general-default-article-section {padding: 47px 0 40px;}
+	.intro {padding: 52px 0 40px;}
+	.intro-btm .btn .button {margin: 0 0 24px 0; min-width: inherit; width: 100%; border-radius: 4px;}
+	.intro-features {margin: 0 0 18px;}
+	
+	.btwn-blocks {margin-bottom: 47px;}
+	.general-default-article-section .btwn-blocks:nth-child(2n) {margin-bottom: 47px;}
+	.def-thumb-box:nth-child(2n+1) {margin-bottom: 2px;}
+	.general-default-article-section .video-thumbnail {margin-top: 48px; margin-bottom: 45px;}
+}

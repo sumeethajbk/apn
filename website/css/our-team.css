@@ -1,0 +1,105 @@
+main {padding-top: 88px;}
+.main_header {background: rgba(232, 116, 30, 0.9);}
+
+.our-team-head {text-align: center; background: rgba(117, 117, 117, 0.1); float: left; width: 100%; padding: 95px 0 90px;}
+.our-team-head .container {max-width: 1168px;}
+.our-team-head small {font-weight: bold; margin-bottom: 15px;}
+.our-team-head h1 {margin-bottom: 11px;}
+.our-team-head p {font-size: 1.125rem; line-height: 1.44; color: #282220; max-width: 600px; margin-left: auto;
+margin-right: auto; margin-bottom: 56px;}
+.our-team-head .select1-of-4 {margin-left: 2.7%; width: 22.945205479452055%;}
+.our-team-head .wrap-of-4 {width: calc(100% - 25.8%); margin-left: 2.7%;}
+.our-team-head .wrap-of-4 form {justify-content: space-between;}
+.our-team-head .wrap-of-4 .select1-of-4 {width:31%; max-width: 268px;}
+.our-team-head .select1-of-4:first-child {margin-left: 0;}
+.search-filter {margin-bottom: 22px;}
+.search-by {text-transform: uppercase; font-family: 'Montserrat', sans-serif; align-items: center;}
+.sb {font-weight: 500; letter-spacing: 1.5px; font-size: 0.75rem; color: #000; position: relative; top: -3px;}
+.search-by ul {margin:0; width: calc(100% - 179px);}
+.search-by ul li {display:inline-block; margin-left:6px; margin-bottom:6px}
+.search-by ul li a {width:32px; height:32px; background-color:rgba(232, 116, 30, 0.5); color:#fff; display:flex; align-items:center; padding-bottom: 0; justify-content:center; font-size: 0.75rem; letter-spacing: 1.5px; border-radius: 4px;}
+.search-by ul li a:before {display: none;}
+.search-by ul li a.current, .search-by ul li a:hover {background-color:rgba(232, 116, 30, 1)}
+.search-by ul li:before {display:none}
+
+.select-main ::-webkit-input-placeholder {font-size: 0.75rem; color: #222222; letter-spacing: 1.5px; font-weight: 500; opacity: 1; text-transform: uppercase;}
+.select-main :-moz-placeholder {font-size: 0.75rem; color: #222222; letter-spacing: 1.5px; font-weight: 500; opacity: 1;text-transform: uppercase;}
+.select-main ::-moz-placeholder {font-size: 0.75rem; color: #222222; letter-spacing: 1.5px; font-weight: 500; opacity: 1;text-transform: uppercase;}
+.select-main :-ms-input-placeholder {font-size: 0.75rem; color: #222222; letter-spacing: 1.5px; font-weight: 500; opacity: 1;text-transform: uppercase;}
+input[type="text"] {padding:14px 40px 13px 17px;}
+
+body .our-team-head .selectBox-dropdown .selectBox-label {text-transform: uppercase; letter-spacing: 1.5px; font-weight: 500;font-size: 0.75rem; padding: 16px 40px 16px 17px;}
+body .our-team-head .selectBox-options li, body .selectBox-options li a {text-transform: uppercase; font-size: 0.75rem; font-family: 'Montserrat', sans-serif; letter-spacing: 1.5px;}
+body .our-team-head .selectBox-options li.selectBox-selected a {padding: 7px 8px 7px;}
+
+
+.our-team-page-section {float:left; width:100%; padding:96px 0 96px;}
+.our-team-page-section .container {max-width:1168px;}
+.team-members .team-member {width: 22.945205479452055%; margin:0 0 2.7% 2.74%; display: flex; flex-direction: column;}
+.team-members .team-member:nth-child(4n+1) {margin-left:0;}
+.team-members .team-member .thumb img {width: 100%; height: 100%; font-family: "object-fit: cover";
+-o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out; border-top-left-radius:8px; border-top-right-radius:8px;}
+.team-members .team-member .thumb img:hover {opacity: 0.8;}
+.team-members .team-member {position: relative;}
+.team-members .team-member .team-txt { border-bottom-left-radius:8px; border-bottom-right-radius:8px; background:#fff; padding: 15px 25px 16px 25px; text-align:center; display: flex; flex-direction: column; height: 100%;}
+.team-members .team-member .team-txt h6 {font-size: 0.75rem; letter-spacing: 1.5px; color: #222; margin-bottom: 0;}
+.team-members .team-member .team-txt h6 a {color: #222;}
+.team-members .team-member .team-txt h6 a:hover {color: #e87722;}
+.team-position {display:block; color: #222;opacity: 0.5;  font-size: 0.625rem;  letter-spacing: 1.25px; text-transform:uppercase; font-family: 'Montserrat', sans-serif; font-weight: bold;}
+
+.blog_more {margin-top: 32px; text-align: center;}
+#more-blog a:before {display: none;}
+
+.subscribe-main {background: rgba(117, 117, 117, 0.1);}
+footer {background: rgba(117, 117, 117, 0.1);}
+
+#teamfilter h2 {margin-bottom: 50px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1200px){
+	.team_filter {justify-content: space-between;}
+	.search-by {justify-content: space-between;}
+}
+
+@media only screen and (max-width: 1160px) and (min-width:1024px) {
+	.search-filter {margin-bottom: 50px;}
+	.search-by ul {width: 100%;}
+	.search-by .sb {width: 100%; text-align: left;}
+	.search-by ul li:first-child {margin-left: 0;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	main {padding-top: 68px;}
+	#teamfilter h2 {margin-bottom: 40px; font-size: 2rem;}
+
+	
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.team-members .team-member, .team-members .team-member:nth-child(4n+1) {width: 31.5%; margin: 0 0 2.7% 2.74%;}
+	.team-members .team-member:nth-child(3n+1) {margin-left: 0;}
+	
+	.our-team-head {padding: 75px 0 70px;}
+	.our-team-page-section {padding: 76px 0 76px;}
+	.search-filter {margin-bottom: 40px;}
+	.sb {width: 100%; margin-bottom: 10px;}
+	.search-by ul {margin: 0 auto; width: 500px; justify-content: center;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.search-by {display: none;}
+	.search-filter {padding: 0 33px; margin: 0;}
+	.our-team-head h1 {margin-bottom: 18px; font-size: 3rem; letter-spacing: 5.5px;}
+	.our-team-head small {margin-bottom: 17px;}
+	.our-team-head p {padding: 0 12px; margin-bottom: 41px;}
+	.our-team-head {padding:67px 0 40px;}
+	.our-team-head .select1-of-4 {width: 100%; margin: 0 0 24px 0;}
+	.our-team-head .wrap-of-4 {width: 100%; margin-left: 0;}
+	.our-team-head .wrap-of-4 .select1-of-4 {width: 100%; max-width: 100%;}
+	.our-team-page-section {padding:64px 0 64px;}
+	.team-members {padding: 0 33px;}
+	.team-members .team-member {width: 100%; margin: 0 0 32px 0;}
+	.blog_more {margin-top: 16px;}
+}

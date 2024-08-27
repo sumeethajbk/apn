@@ -1,0 +1,30 @@
+.hero-banner-main {max-width: 100%; padding: 38px 0 36px 0}
+.hero-banner-main small {margin-bottom: 15px;}
+.hero-banner-main h1 {margin-bottom: 15px;}
+
+.general-default-article-section {padding: 95px 0 96px;}
+.general-default-article-section h4 {padding-top: 0; margin-bottom: 15px;}
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1100px){
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-main small {margin-bottom: 23px;}
+	.hero-banner-main {padding: 0 0 66px 0;}
+	.hero-banner-main h1 {font-size: 2.25rem; line-height:1.22; letter-spacing: 3.6px; margin-bottom: 22px;}
+	
+	.general-default-article-section {padding: 47px 0 64px;}
+}
+
+@media only screen and (max-width:480px) 
+{
+}
