@@ -1,18 +1,7 @@
-.outcomes-section{clear: both; overflow: hidden; width: 100%;}
-.outcomes-main{padding: 80px 0 30px; }
-
-.outcomes-lt h2{font-family: 'Montserrat',sans-serif; font-weight: 400; font-size: 2.625rem; color: #000; letter-spacing: normal;margin-bottom: 26px;}
-.outcomes-lt h2 a{color:#000;}
-.outcomes-lt h2 a:hover{color: #e87722;}
-.outcomes-lt p{font-size: 20px; font-weight: 400; font-family: 'Montserrat',sans-serif; margin-bottom: 28px;}
-.outcomes-list{border-bottom: 1px solid #898989; padding: 17px 0 13px; gap: 18px;}
-.outcomes-list:last-child{border-bottom: 0;}
-.outcomes-list {font-size: 20px; font-weight: 400; font-family: 'Montserrat',sans-serif;}
-.outcomes-list img{flex: 0 0 32px; padding-left: 10px;}
-.outcomes-list p{flex: 1;}
 
 
-.location-main{padding: 40px 0 80px;}
+
+.location-main{padding: 40px 0 80px; position: relative;}
 .location-main h3{margin-bottom: 50px; color: #000; font-size: 32px;letter-spacing: normal; font-weight: 400;}
 .location-main h3 a{color: #000;}
 .location-main h3 a:hover{color: #e87722;}
@@ -26,18 +15,16 @@
 .location-text-hover { left: 0; width: 100%; height: 100%; transition: all 0.5s ease-in-out; position: absolute; z-index: 2; border-radius: 0 0 24px 24px; overflow-y: auto; }
 .location-text-hover p{font-size: 16px; padding: 12px; margin-bottom: 0; border-bottom: 1px solid #757575; font-weight: 600;}
 .location-text-hover p:last-child{border-bottom: 0;}
-.location-info span { position: absolute; right: 16px; bottom: 15px; color: #fff; font-size: 24px; text-transform: capitalize; font-weight: 500; font-family: 'Montserrat',sans-serif;}
+.location-main span { position: absolute; right: 16px; bottom: 15px; color: #fff; font-size: 24px; text-transform: capitalize; font-weight: 500; font-family: 'Montserrat',sans-serif;}
 .location-info img{border-radius: 20px; min-height: 420px; max-height: 420px;}
 .location-info{position: relative;}
-.location-info:before{position: absolute; content:""; width: 100%; height: 100%; display: block;  background-image: linear-gradient(145deg, rgba(0, 0, 0, 0) 55%, #000 110%); border-radius: 20px;
+.location-info img:before{position: absolute; content:""; width: 100%; height: 100%; display: block;  background-image: linear-gradient(145deg, rgba(0, 0, 0, 0) 55%, #000 110%); border-radius: 20px;
  } 
 
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    .outcomes-main{gap: 64px;} 
-    .outcomes-lt{width: 46.9%; flex-grow: 1;}
-    .outcomes-rt{width: calc(100% - 55.9%);flex-grow: 1;}
+   
 
     .location-row .slick-slide{ margin-right: 40px;}
 
@@ -46,32 +33,21 @@
 
 
 
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-    .outcomes-main{display: block; padding: 64px 0;}
-    .outcomes-lt{margin-bottom: 40px;}
-    
-}
+
     @media only screen and (max-width: 1023px) and (min-width: 200px){
         .location-info img{min-height: 318px; max-height: 318px;}
         .location-row .slick-slide{width: 272px; margin-right: 22px;}
         .location-row.flex.slick-initialized.slick-slider{width: calc(100% + 40px); margin-left: 18px;}
         .location-list:hover .location-text-hover{padding: 20px;}
-        .location-info span{position: relative;}
+        .location-main span{position: inherit; right: 0; bottom: 0; color: #000; font-size: 16px; margin-top: 16px; display: block;} 
     }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .outcomes-main{text-align: center; padding: 76px 0 40px;}
-    .outcomes-lt h2{font-size: 1.75rem; line-height: 2.125rem;}
-    .outcomes-lt p{font-size: 16px; margin-bottom: 30px;}
-    .outcomes-list{display: block; border-bottom: 0; padding: 0; margin-bottom: 32px;}
-    .outcomes-list img{margin-bottom: 12px;}
-    .outcomes-list p{font-size: 14px;}
-    .outcomes-main .btn{width: 100%;}
-    .outcomes-main .button.lg{padding: 12px 20px; width: 100%;}
-    .outcomes-rt{padding: 0 42px; margin: 0 auto;}
+   
 
     .location-list{flex: 272px;}
-    .location-main h3{text-align: center;}
+    .location-main{padding: 34px 0 80px;}
+    .location-main h3{text-align: center; margin-bottom: 42px;}
 }
 
 
